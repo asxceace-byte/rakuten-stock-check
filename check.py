@@ -49,7 +49,7 @@ for item in ITEMS:
         text = soup.text
 
         # 在庫復活判定
-        if True:
+        if "かごに追加" in text:
 
             message = {
                 "content": f"""🚨【在庫復活】
