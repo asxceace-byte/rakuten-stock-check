@@ -52,7 +52,7 @@ for item in ITEMS:
         if "かごに追加" in text and "売り切れました" not in text:
 
             message = {
-                "content": f"""🚨【在庫復活】
+                "content": f"""🚨在庫復活
 {item["name"]}
 {item["url"]}
 """
